@@ -2,7 +2,15 @@
   "name": "pingpong",
   "tree": {
     "$className": "DataModel",
+    "StarterPlayer":{
+      "StarterPlayerScripts":{
+        "$path": "src/client"
+      }
+    },
 
+    "ReplicatedStorage":{
+      "$path": "src/ReplicatedStorage"
+    },
     "ServerScriptService": {
       "Server": {
         "$path": "src/server"
